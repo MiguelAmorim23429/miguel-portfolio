@@ -24,7 +24,7 @@ export default function Hero({ onContactClick, onProjectsClick }: HeroProps) {
               boxShadow: '0 10px 30px rgba(99, 102, 241, 0.25)'
             }}>
             <img 
-              src="/miguel.jpg" 
+              src={`${import.meta.env.BASE_URL}miguel.jpg`} 
               alt="Miguel Amorim" 
               className="profile-img-styled"
               style={{
